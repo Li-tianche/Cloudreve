@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 WORKDIR /cloudreve
-COPY cloudreve ../cloudreve
+COPY cloudreve ./Cloudreve
 
 RUN apk update \
     && apk add --no-cache tzdata \
